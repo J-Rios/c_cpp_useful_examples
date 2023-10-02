@@ -1,6 +1,21 @@
+/**
+ * @file    main.cpp
+ * @author  Author Name
+ * @date    2023.03.16
+ * @version 1.0.0
+ * @brief   Project main file.
+ */
+
+/*****************************************************************************/
+
+/* Libraries */
 
 #include <stdio.h>
 #include "singleton.h"
+
+/*****************************************************************************/
+
+/* Main Function */
 
 /**
  * @details This function test the Singleton Class creating 3 pointers to the
@@ -27,3 +42,5 @@ int main()
 
     return 0;
 }
+
+/*****************************************************************************/

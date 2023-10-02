@@ -1,6 +1,6 @@
 # Class Skeleton
 
-This project implements the basic layout of a C++ Class component with a custom separation of sections in both, the class interface and implementation. To be used as starting code for development of new class components.
+This project implements a basic layout of a C++ Class component with a custom separation of sections in both, the class interface and implementation code. To be used as starting code for development of new class components.
 
 ## Provides
 
