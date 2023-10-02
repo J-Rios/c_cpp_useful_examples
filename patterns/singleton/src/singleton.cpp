@@ -1,3 +1,12 @@
+/**
+ * @file    singleton.cpp
+ * @author  Author Name
+ * @date    yyyy.mm.dd
+ * @version 1.0.0
+ * @brief   Brief description of the component.
+ */
+
+/*****************************************************************************/
 
 /* Libraries */
 
@@ -10,7 +19,7 @@
 
 /*****************************************************************************/
 
-/* C++ Portability Fix */
+/* C++ Portability Fixes */
 
 // Check for nullptr and define it as NULL if it doesn't exists (to support
 // older version of C++)
@@ -37,12 +46,13 @@ Singleton* Singleton::instance = nullptr;
  * initial default values.
  */
 Singleton::Singleton()
+:
+    initialized(false),
+    my_var1(0),
+    my_var2('\0')
 {
     std::cout << "Singleton Constructor Run" << std::endl;
     instance = nullptr;
-    initialized = false;
-    my_var1 = 0;
-    my_var2 = '\0';
 }
 
 /*****************************************************************************/
@@ -118,3 +128,6 @@ bool Singleton::process()
 
 /* Private Methods */
 
+
+
+/*****************************************************************************/

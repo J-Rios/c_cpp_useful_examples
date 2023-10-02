@@ -7,7 +7,7 @@ CXX = g++
 # Specify build and binary directories
 BUILD_DIR = ./build
 BIN_DIR = ./bin
-#/mnt/c/Users/jose_/Desktop/projects/example_static_singleton/bin/my_app
+
 ######################################################################
 
 # Specify sources and headers files
@@ -24,7 +24,7 @@ OBJS = $(_OBJS:.c=.o)
 LIBS = -I./src
 
 # Setup compilation flags
-CXXFLAGS = -O0 -Wall -g $(LIBS)
+CXXFLAGS = -O0 -Wall -Wextra -Weffc++ -pedantic -g $(LIBS)
 # Note: Optimization set to 0 for debug in code order
 
 ######################################################################
